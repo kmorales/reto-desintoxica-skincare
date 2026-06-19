@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    @apply bg-afrodita-beige font-sans text-stone-800 antialiased;
+  }
+}
+
+/* ── Print styles ─────────────────────────────────────── */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .print-target,
+  .print-target * {
+    visibility: visible;
+  }
+  .print-target {
+    position: fixed;
+    inset: 0;
+    margin: 2rem;
+    background: white;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 2rem;
+    font-size: 14px;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

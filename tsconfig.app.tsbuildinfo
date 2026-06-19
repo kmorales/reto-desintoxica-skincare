@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/ctablock.tsx","./src/components/dailytask.tsx","./src/components/daynav.tsx","./src/components/header.tsx","./src/components/ingredienttable.tsx","./src/components/recipecard.tsx","./src/data/dias.ts","./src/hooks/usechecklist.ts","./src/pages/daypage.tsx","./src/pages/landingpage.tsx"],"version":"5.9.3"}
