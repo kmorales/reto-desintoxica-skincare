@@ -39,7 +39,7 @@ export const dias: Dia[] = [
     mensaje:
       'Bienvenida al Reto Desintoxica tu Skincare. Durante los próximos 7 días vas a aprender a leer etiquetas, identificar lo que te pasa desapercibido y reemplazarlo por alternativas que realmente nutren tu piel. Empezamos con uno de los más conocidos.',
     queEs:
-      'Los parabenos son conservantes sintéticos que se usan en cosmética para alargar la vida útil de los productos. El problema es que el cuerpo los absorbe a través de la piel y los reconoce como estrógenos artificiales, lo que puede alterar el equilibrio hormonal con el uso prolongado.',
+      'Son conservantes sintéticos que se usan en cosmética para alargar la vida útil de los productos. El cuerpo los absorbe y metaboliza rápidamente a través de la piel. Algunos parabenos pueden actuar como hormonas (específicamente estrógenos) en el cuerpo, lo que puede alterar el equilibrio hormonal con el uso prolongado.</br> Actualmente están aprobados por autoridades sanitarias y se consideran de baja toxicidad en las concentraciones permitidas, pero si prefieres evitarlos, busca etiquetas: "paraben-free", "sin parabenos", "libre de parabenos"',
     identificacion: [
       { etiqueta: 'Methylparaben', encuentraEn: 'Cremas corporales, lociones, maquillaje' },
       { etiqueta: 'Propylparaben', encuentraEn: 'Productos de cuidado facial, BB creams' },
@@ -54,7 +54,7 @@ export const dias: Dia[] = [
       descripcion:
         'Perfecta para empezar porque solo necesitas dos ingredientes. No requiere conservantes porque tiene muy poca agua.',
       ingredientes: [
-        '50 g de manteca de karité (en barra o en frasco)',
+        '50 g de manteca de karité',
         '2 cucharadas de aceite de coco extra virgen',
         'Unas gotas de aceite esencial de lavanda (opcional)',
       ],
@@ -68,7 +68,7 @@ export const dias: Dia[] = [
       nota: 'Esta mezcla no tiene agua, por eso no necesita conservantes. Si tu piel es muy grasa, usa solo el aceite de karité sin el coco.',
     },
     ctaTexto:
-      'Si esta receta te abrió el apetito por aprender a hacer más productos para tu piel, en mi ebook de jabonería para principiantes hay 10 recetas más con el mismo nivel de detalle y sin complicaciones. Escríbeme si quieres saber más.',
+      'Atenta a Instagram porque pronto se vienen nuevas recetas en una nueva serie de Ebooks de Cosmética Natural.',
     frase:
       '"Recuerda: el objetivo de estos 7 días no es que lo cambies todo de golpe. Es que empieces a leer lo que pones en tu piel con otros ojos."',
   },
@@ -80,7 +80,7 @@ export const dias: Dia[] = [
     mensaje:
       'Llegamos al día 2 y hoy hablamos de algo que probablemente tienes en la ducha en este momento.',
     queEs:
-      'El Sodium Lauryl Sulfate (SLS) y el Sodium Laureth Sulfate (SLES) son detergentes que generan espuma abundante. El problema es que limpian de forma tan agresiva que eliminan el manto hidrolipídico de la piel: esa capa protectora natural que regula la humedad y protege de las bacterias. El resultado es piel tensa, cuero cabelludo reactivo o cabello reseco que parece pedir más producto.',
+      'El Sodium Lauryl Sulfate (SLS) y el Sodium Laureth Sulfate (SLES) son detergentes que generan espuma abundante. El problema es que limpian de forma tan agresiva que eliminan aceites naturales de la piel. El resultado es piel tensa, cuero cabelludo reactivo o cabello reseco que parece pedir más producto. Riesgos documentados: SLS puede empeorar eczema, acné, psoriasis y rosácea. Seguridad normativa: En concentraciones permitidas y en productos que se enjuagan, generalmente se consideran seguros, pero la exposición prolongada puede dañar la barrera cutánea.',
     identificacion: [
       { etiqueta: 'Sodium Lauryl Sulfate', encuentraEn: 'Geles de ducha, champús, pasta dental' },
       { etiqueta: 'Sodium Laureth Sulfate', encuentraEn: 'Shampoo, jabón líquido, espuma facial' },
@@ -172,7 +172,7 @@ export const dias: Dia[] = [
     mensaje:
       'Día 4. Hoy hablamos de uno de los ingredientes más complicados de identificar porque rara vez aparece con su nombre propio.',
     queEs:
-      'El formaldehído es un conservante potente clasificado como carcinógeno por la Agencia Internacional para la Investigación del Cáncer (IARC). En cosmética no siempre aparece como "formaldehyde" en la etiqueta. En cambio, se usan compuestos que lo liberan lentamente dentro del producto para que actúe como conservante. Estos se llaman liberadores de formaldehído y son los que hay que aprender a reconocer.',
+      'El formaldehído es un conservante potente clasificado como cancerígeno por la Agencia Internacional para la Investigación del Cáncer. En cosmética rara vez aparece como "formaldehyde" en la etiqueta. En cambio, se usan compuestos que lo liberan lentamente dentro del producto para que actúe como conservante. Se llaman liberadores de formaldehído y son los que necesitas aprender a reconocer. Dato importante: El formaldehído es cancerígeno confirmado cuando se inhala en altas concentraciones (ambiental/industrial). En cosmética tópica, el riesgo principal es irritación y sensibilización. ',
     identificacion: [
       {
         etiqueta: 'DMDM Hydantoin',
@@ -243,7 +243,7 @@ export const dias: Dia[] = [
       descripcion:
         'Un perfume sólido es una alternativa elegante, práctica y 100% libre de ftalatos. Al ser anidro (sin agua) tampoco necesita conservantes.',
       ingredientes: [
-        '10 g de cera de abeja en pastillas o rallada',
+        '10 g de cera de abeja',
         '20 ml de aceite de jojoba o almendras dulces',
         '20 a 30 gotas de aceites esenciales de tu elección',
         'Envase pequeño: cajita de aluminio o frasco de vidrio de tapa rosca',
